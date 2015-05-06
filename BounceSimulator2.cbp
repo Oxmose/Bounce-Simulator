@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BounceSimulator2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/BounceSimulator2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/SDL-2.0" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/SDL-2.0/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="glew32" />
+					<Add library="opengl32" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/SDL-2.0" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/SDL-2.0/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/SDL-2.0/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2.dll" />
+			<Add library="opengl32" />
+			<Add library="glew32" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/SDL-2.0/lib" />
+		</Linker>
+		<Unit filename="src/CBall.cpp" />
+		<Unit filename="src/CBall.h" />
+		<Unit filename="src/CGrad.cpp" />
+		<Unit filename="src/CGrad.h" />
+		<Unit filename="src/CSceneOpenGL.cpp" />
+		<Unit filename="src/CSceneOpenGL.h" />
+		<Unit filename="src/Shader.cpp" />
+		<Unit filename="src/Shader.h" />
+		<Unit filename="src/common.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/tools.cpp" />
+		<Unit filename="src/tools.h" />
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
