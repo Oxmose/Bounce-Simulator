@@ -8,7 +8,7 @@ Bounce simulator is a software developed in C++, using the OpenGl library to sim
 * Rémi Soulier
 * Alexy Torres-Aurora--Dugo
 
-## Technologies
+## Tools / Langage
 * C++
 * OpenGl 3.3
 * SDL 2.0
